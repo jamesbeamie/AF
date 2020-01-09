@@ -1,3 +1,6 @@
+/*Import fonts*/
+@import url("../css/fonts.css");
+/*Import fonts*/
 /* Main styling */
 html,
 body {
@@ -6,9 +9,39 @@ body {
   overflow-x: hidden;
 }
 
+/* CSS Variables*/
+:root {
+  /* font family */
+  --Abel: "Abel", cursive;
+  --Anton: "Anton", cursive;
+  --Roboto: "Roboto", cursive;
+  --Source_Sans_Pro: "Source_Sans_Pro", cursive;
+  --Verela_Round: "Verela_Round", cursive;
+
+  /* colors */
+
+  --text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --black: #000000;
+  --manjano: #e6ac00;
+  --text-gray: #3f4954;
+  --text-gray: #3f4954;
+  --text-gray: #3f4954;
+
+  /* gradient color (to change matching AF)*/
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  --mayai: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  --nyeusi: linear-gradient(to right, #434343 0%, black 100%);
+}
+/* CSS Variables*/
+
 /* Global classes */
 a {
   text-decoration: none;
+  /*colors to be changed */
+  color: var(--text-gray);
 }
 ul {
   list-style-type: none;
@@ -40,15 +73,32 @@ ul {
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
+  font-family: var(--Abel);
+  font-size: 1.1rem;
+  color: var(--black);
 }
 
 .nav .nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
   display: block;
+  /*calling fontFamily variable*/
+  font-family: var(--Roboto);
+}
+.nav .nav-items .nav-link:hover {
+  background-color: var(--manjano);
+  border-radius: 5px;
+}
+.nav .nav-items .nav-link:hover a {
+  color: var(--black);
 }
 .nav .social {
   padding: 1.4rem 0;
 }
-
+.nav .social i {
+  padding: 0 0.2rem;
+}
+.nav .social i:hover {
+  color: #bfbfbf;
+}
 /* Navigation bar */
