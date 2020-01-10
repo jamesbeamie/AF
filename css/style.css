@@ -59,11 +59,27 @@ ul {
   background: white;
   padding: 0% 2rem;
   height: 0;
-  min-height: 40vh;
+  min-height: 10vh;
   overflow: hidden;
 }
 .nav .nav-menu {
   justify-content: space-between;
+}
+.nav .toggle-collapse {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  width: 90%;
+  display: none;
+}
+.nav .toggle-collapse .toggle-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.7rem 0;
+}
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.7rem;
+  color: var(--text-gray);
 }
 .nav .nav-items {
   display: flex;
@@ -102,3 +118,17 @@ ul {
   color: #bfbfbf;
 }
 /* Navigation bar */
+
+/* Responsiveness */
+
+/* ViewPort =< 750px media queries*/
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
+  .nav .toggle-collapse {
+    display: initial;
+  }
+}
+/* ViewPort =< 750px*/ /* Responsiveness */
