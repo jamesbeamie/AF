@@ -51,6 +51,25 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+h1 {
+  font-family: var(--Abel);
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: var(--Verela_Round);
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Source_Sans_Pro);
+  cursor: pointer;
+}
 /* Global classes */
 
 /* Navigation bar */
@@ -123,6 +142,37 @@ ul {
   color: #bfbfbf;
 }
 /* Navigation bar */
+
+/*Main section*/
+/*site title*/
+main .site-title {
+  background: url("../assets/Background-image.png");
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+main .site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: var(--white);
+}
+main .site-title h1,
+h3 {
+  margin: 0.3rem;
+}
+
+main .site-title .btn {
+  background: var(--mayai);
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid white;
+  color: var(--white);
+}
+/*site title*/
+/*Main section*/
 
 /* Responsiveness */
 
