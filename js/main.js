@@ -7,4 +7,8 @@ $(document).ready(function() {
   $toggleCollapse.click(function() {
     $nav.toggleClass("collapse");
   });
+
+  // owl carousel for the cards
+
+  $(".owl-carousel").owlCarousel();
 });
