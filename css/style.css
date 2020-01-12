@@ -78,6 +78,10 @@ ul {
   color: var(--black);
 }
 
+.collapse {
+  height: 30rem;
+}
+
 .nav .nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
