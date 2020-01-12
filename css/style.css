@@ -74,6 +74,9 @@ button.btn {
 span {
   font-family: var(--Abel);
 }
+.container {
+  margin: 0 5vw;
+}
 /* Global classes */
 
 /* Navigation bar */
@@ -185,6 +188,7 @@ main .blog {
   background-position: right;
   height: 100vh;
   width: 100%;
+  background-size: 65%;
 }
 
 main .blog .blog-post {
@@ -211,6 +215,36 @@ main .blog-content .btn-blog {
 
 main .blog-content span {
   display: block;
+}
+
+section .container .owl-nav {
+  /* position: absolute; */
+  /* top: 0; */
+  margin: 0 auto;
+  width: 100%;
+}
+section .container .owl-nav span {
+  padding: 2rem;
+  outline: none;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+  color: var(--text-gray);
+  background: transparent;
+  font-size: 2rem;
+  font-size: 18px;
+}
+
+/* any class with owl */
+
+.owl-theme .owl-nav[class*="owl-"]:hover {
+  background: transparent;
+  color: var(--manjano);
+}
+
+.owl-theme .owl-nav[class*="owl-"] {
+  outline: none;
 }
 /* Blog carousel */
 
