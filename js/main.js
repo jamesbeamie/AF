@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $nav = $(".nav");
-  $togglCollapse = $(".toggle-collapse");
+  $toggleCollapse = $(".toggle-collapse");
 
   /* click event to handle icon-bar */
 
-  $togglCollape.click(function() {
-    $nav.$togglCollapse("collapse");
+  $toggleCollapse.click(function() {
+    $nav.toggleClass("collapse");
   });
 });
