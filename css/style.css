@@ -62,7 +62,7 @@ h3 {
   font-family: var(--Verela_Round);
 }
 
-button .btn {
+button.btn {
   border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
@@ -150,7 +150,7 @@ span {
 /*Main section*/
 /*site title*/
 main .site-title {
-  background: url("../assets/Background-image.png");
+  background: url("../assets/camera-recording-video-businessman-corporate-interview-makeup-artist-happy-journalist-vip-manager-talking-144059182.jpg");
   background-size: cover;
   height: 110vh;
   display: flex;
