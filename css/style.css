@@ -145,6 +145,18 @@ span {
 .nav .social i {
   padding: 0 0.2rem;
 }
+.nav .social .fb {
+  color: blue;
+}
+.nav .social .ig {
+  color: rgb(115, 9, 119);
+}
+.nav .social .twitter {
+  color: rgb(75, 145, 236);
+}
+.nav .social .u-tube {
+  color: rgb(199, 11, 11);
+}
 .nav .social i:hover {
   color: #bfbfbf;
 }
