@@ -260,6 +260,16 @@ section .container .owl-nav span {
 }
 /* Blog carousel */
 
+/* Site Content */
+main .site-content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+main .post-content {
+  margin-bottom: 5rem;
+}
+/* Site Content */
+
 /*Main section*/
 
 /* Responsiveness */
