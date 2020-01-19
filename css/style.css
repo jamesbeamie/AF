@@ -321,6 +321,24 @@ main .site-content .post-content .post-title .post-btn {
 }
 /* Site Content */
 
+/* side Bar */
+.site-content > .sidebar .category-list {
+  font-family: var(--Source_Sans_Pro);
+}
+.site-content > .sidebar .category-list .list-items {
+  background: var(--sky);
+  padding: 0.4rem 1rem;
+  margin: 0.8rem 0;
+  border-radius: 3rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.site-content > .sidebar .category-list .list-items a {
+  color: black;
+}
+/* side Bar */
+
 /*Main section*/
 
 /* Responsiveness */
