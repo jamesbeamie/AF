@@ -337,6 +337,26 @@ main .site-content .post-content .post-title .post-btn {
 .site-content > .sidebar .category-list .list-items a {
   color: black;
 }
+
+.site-content .sidebar .popular-post .post-content {
+  padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2 {
+  padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+  padding: 0.4rem 0.1rem !important;
+  bottom: 0rem !important;
+  left: 1rem !important;
+  border-radius: 3rem !important;
+  background: white !important;
+}
+
+.site-content .sidebar .popular-post .post-title a {
+  font-size: 1rem;
+}
 /* side Bar */
 
 /*Main section*/
