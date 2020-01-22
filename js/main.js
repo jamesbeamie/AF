@@ -21,4 +21,14 @@ $(document).ready(function() {
       $(".owl-navigation .owl-nav-next")
     ]
   });
+
+  // Click to scroll up
+  $(".move-up span").click(function() {
+    $("html,body").animate(
+      {
+        scrollTop: 0
+      },
+      1500
+    );
+  });
 });
