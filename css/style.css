@@ -442,7 +442,27 @@ footer.footer .move-up span:hover {
 
 /* Responsiveness */
 
-/* ViewPort =< 750px media queries*/
+/* Media query for ViewPort =< 1130px*/
+
+@media only screen and (max-width: 1130px) {
+  .site-content .post-content > .post-image .post-info {
+    left: 0.1rem !important;
+    bottom: 0.2rem !important;
+    border-radius: 0% !important;
+  }
+
+  .site-content .sidebar .popular-post .post-info {
+    /* removes the link to youtube */
+    display: none !important;
+  }
+
+  footer.footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Media query for ViewPort =< 1130px*/
+
+/* Media query for ViewPort =< 750px media queries*/
 @media only screen and (max-width: 750px) {
   .nav .nav-menu,
   .nav .nav-items {
@@ -451,5 +471,32 @@ footer.footer .move-up span:hover {
   .nav .toggle-collapse {
     display: initial;
   }
+
+  main .site-content {
+    grid-template-columns: 100%;
+  }
+  footer.footer .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-/* ViewPort =< 750px*/ /* Responsiveness */
+/* ViewPort =< 750px*/
+
+/* ViewPort =< 520 */
+
+@media only screen and (max-width: 520px) {
+  nav .toggle-collapse {
+    width: 85% !important;
+  }
+  main .blog {
+    height: 125vh;
+  }
+  .site-content .post-content > .post-image .post-info {
+    display: none;
+  }
+
+  footer.footer .container > div {
+    padding: 0.3rem 0.5rem !important;
+  }
+}
+/* ViewPort =< 520 */
+/* Responsiveness */
