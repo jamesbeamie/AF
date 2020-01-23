@@ -46,4 +46,7 @@ $(document).ready(function() {
       1500
     );
   });
+
+  // Animation on scroll
+  AOS.init();
 });

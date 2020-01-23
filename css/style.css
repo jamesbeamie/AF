@@ -204,7 +204,6 @@ main .site-title .btn:hover {
 /* Blog carousel */
 
 main .blog {
-  background: url("../assets/Abract01.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 100vh;
