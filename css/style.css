@@ -232,9 +232,9 @@ main .kichwa .btn:hover {
   color: var(--white);
 }
 main .kichwa .container .maneno .arrow {
-  color: var(--manjano);
+  color: wheat;
   padding-top: 2rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 /* main .kichwa .container .maneno .arrow .chini {
   animation: pulse 2s infinite !important;
@@ -416,6 +416,14 @@ main .site-content .post-content .post-title .post-btn:hover {
 .site-content .sidebar .popular-post .post-content {
   padding: 1rem 0;
 }
+.site-content .post-content > .post-image .vid {
+  width: 100%;
+  transition: all 1s ease;
+}
+
+/* .site-content .post-content > .post-image .img:hover {
+  transform: scale(1.3);
+} */
 
 .site-content .sidebar .popular-post h2 {
   padding-top: 8rem;
@@ -530,6 +538,9 @@ footer.footer .move-up span:hover {
 
 /* Media query for ViewPort =< 750px media queries*/
 @media only screen and (max-width: 750px) {
+  .nav .nav-items .nav-link {
+    padding: 0.6rem 1rem !important;
+  }
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
