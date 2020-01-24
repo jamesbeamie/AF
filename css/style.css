@@ -173,14 +173,81 @@ span {
 
 /*Main section*/
 /*site title*/
-main .site-title {
-  background: url("../assets/camera-recording-video-businessman-corporate-interview-makeup-artist-happy-journalist-vip-manager-talking-144059182.jpg");
-  background-size: cover;
-  height: 110vh;
-  display: flex;
-  justify-content: center;
+.kichwa {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
 }
-main .site-title .site-background {
+
+.kichwa video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.kichwa .container {
+  position: absolute;
+  margin-left: 36rem;
+  top: 13rem;
+  z-index: 2;
+}
+
+.kichwa .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+  z-index: 1;
+}
+main .kichwa .btn {
+  background: var(--mayai);
+}
+main .kichwa .container .maneno {
+  text-align: center !important;
+}
+main .kichwa .container .maneno p,
+h3 {
+  margin: 0.3rem;
+  color: black;
+  font-size: 1.5rem;
+}
+main .kichwa .btn:hover {
+  background: transparent;
+  border: 1px solid white;
+  color: var(--white);
+}
+main .kichwa .container .maneno .arrow {
+  color: var(--manjano);
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+/* main .kichwa .container .maneno .arrow .chini {
+  animation: pulse 2s infinite !important;
+} */
+
+/* main .site-title { */
+/* background: url("../assets/alexandru-g-stavrica-J5Si8M5IIhU-unsplash.jpg");
+  background-size: cover; */
+/* height: 110vh;
+  display: flex;
+  justify-content: center; */
+/* } */
+/* main .site-title .site-background {
   padding-top: 10rem;
   text-align: center;
   color: var(--white);
@@ -188,9 +255,9 @@ main .site-title .site-background {
 main .site-title h1,
 h3 {
   margin: 0.3rem;
-}
+} */
 
-main .site-title .btn {
+/* main .site-title .btn {
   background: var(--mayai);
 }
 
@@ -198,7 +265,7 @@ main .site-title .btn:hover {
   background: transparent;
   border: 1px solid white;
   color: var(--white);
-}
+} */
 /*site title*/
 
 /* Blog carousel */
@@ -379,7 +446,7 @@ footer.footer .container {
   display: grid;
   /* grid-template-columns: 25% 25% 25% 25%; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 footer.footer .container h2 {
@@ -422,7 +489,7 @@ footer.footer .rights {
   font-family: var(--Roboto);
 }
 footer.footer .rights h4 {
-  color: var(--white);
+  color: rgba(211, 181, 12, 0.911);
 }
 footer.footer .move-up {
   position: absolute;
@@ -430,7 +497,7 @@ footer.footer .move-up {
   top: 50%;
 }
 footer.footer .move-up span {
-  color: var(--manjano);
+  color: rgba(211, 181, 12, 0.911);
 }
 footer.footer .move-up span:hover {
   color: var(--white);
