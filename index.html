@@ -32,13 +32,16 @@
         <div >
           <ul class="nav-items">
             <li class="nav-link">
-              <a href="#">Services</a>
+              <a href="#service">Services</a>
             </li>
             <li class="nav-link">
-              <a href="#">About</a>
+              <a href="#futa">About</a>
             </li>
             <li class="nav-link">
-              <a href="#">Contacts</a>
+              <a href="#potfolio">Portfolio</a>
+            </li>
+            <li class="nav-link">
+              <a href="#futa">Contacts</a>
             </li>
           </ul>
         </div>
@@ -54,17 +57,38 @@
 
     <!-- Home Screen -->
     <main>
-      <section class="site-title">
+      <!-- <section class="site-title">
         <div class="site-background" data-aos="fade-up" data-aos-delay="300">
           <h3>Abstract Frames</h3>
           <h1>Videos that tell your story</h1>
           <button class="btn">Find out</button>
         </div>
+      </section> -->
+
+      <section class="kichwa">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="../assets/videos/wedding.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="maneno w-100 text-white">
+              <h1 class="display-3">Abstract frames</h1>
+              <p class="lead mb-0">Videos that tell your story</p>
+              <button class="btn">Find out</button>
+             <div class="arrow" data-aos="fade-down" data-aos-delay="200">
+              <span>
+                <i class="chini fas fa-arrow-down"></i>
+              </span>
+             </div>
+            </div>
+          </div>
+        </div>
       </section>
        <!-- Home Screen -->
 
     <!-- Card carousel -->
-    <section>
+    <section id="service">
       <div class="blog">
         <div class="container">
           <div class="owl-carousel theme-carousel blog-post">
@@ -79,24 +103,24 @@
             <div class="blog-content" data-aos="fade-up" data-aos-delay="200">
               <img src="./assets/Blog-post/post-2.jpg" alt='post-1'/>
               <div class="blog-title">
-                <h3>Coverage for engagements and weddings</h3>
-                <button class="btn btn-blog">Weddings</button>
+                <h3>Documentaries on natural disaster, charity services, community services and culture</h3>
+                <button class="btn btn-blog">Documentaries</button>
                 <span>1 minute</span>
               </div>
             </div>
             <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
               <img src="./assets/Blog-post/post-3.jpg" alt='post-1'/>
               <div class="blog-title">
-                <h3>Coverage for engagements and weddings</h3>
-                <button class="btn btn-blog">Weddings</button>
+                <h3>Content for Manufacturing and Service Industries</h3>
+                <button class="btn btn-blog">Industries</button>
                 <span>1 minute</span>
               </div>
             </div>
             <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-              <img src="./assets/Blog-post/post-4.png" alt='post-1'/>
+              <img src="./assets/Blog-post/post-4.jpg" alt='post-1'/>
               <div class="blog-title">
-                <h3>Coverage for engagements and weddings</h3>
-                <button class="btn btn-blog">Weddings</button>
+                <h3>Tech meet-ups, Educational Workshops, Motor-show</h3>
+                <button class="btn btn-blog">Events</button>
                 <span>1 minute</span>
               </div>
             </div>
@@ -112,7 +136,7 @@
     <!-- Card carousel -->
 
     <!-- Site Content -->
-    <section class="container">
+    <section id="potfolio" class="container">
       <div class="site-content">
         <div class="posts">
           <div class="post-content" data-aos="zoom-in" data-aos-delay="300">
@@ -122,7 +146,7 @@
               </div>
               <div class="post-info flex-row">
                 <span>
-                  <i class="fas fa-user text-gray">&nbsp;Client</i>
+                  <i class="fas fa-user text-gray">&nbsp;Tanya and Ugo</i>
                 </span>
                 <span>
                   <i class="fas fa-calendar-alt text-gray">&nbsp; Sept 2019</i>
@@ -134,12 +158,8 @@
             </div>
             <div class="post-title">
               <a href="#">Weddings</a>
-              <p>Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Koko Energy Koko Energy Koko Energy Koko Energy Energy 
-                Koko Energy Koko Energy Koko Energy</p>
-              <button class="btn post-btn">Watch Video &nbsp;</button>
+              <p>Wedding at the windsor Golf Hotel. Wedding at the windsor Golf Hotel. Wedding at the windsor Golf Hotel.</p>
+              <button onclick="window.location.href='https://www.youtube.com/watch?v=dsfUhZiw2e4';"class="btn post-btn"> Watch Video &nbsp;</button>
             </div>
           </div>
           <hr>
@@ -162,15 +182,8 @@
             </div>
             <div class="post-title">
               <a href="#">Events</a>
-              <p>Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                EnergyKoko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy 
-                Koko Energy Koko Energy Koko Energy Koko Energy Koko Energy 
-                Koko Energy Koko Energy Koko Energy Koko EnergyKoko Energy 
-                Koko Energy Koko Energy Koko Energy</p>
-              <button class="btn post-btn">Watch Video &nbsp;</button>
+              <p>A four-day shoot for a workshop on Anti Microbial Resistance by ReAct at The Africa Panari Hotel in Nairobi.</p>
+              <button onclick="window.location.href='https://www.youtube.com/watch?v=Oh9_4VfaGAI';"class="btn post-btn"> Watch Video &nbsp;</button>
             </div>
           </div>
           <hr>
@@ -193,30 +206,24 @@
             </div>
             <div class="post-title">
               <a href="#">DOCUMENTARIES</a>
-              <p>Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko EnergyKoko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy Koko Energy
-                Koko Energy Koko Energy Koko Energy Koko Energy Koko Energy 
-                Koko Energy Koko Energy Koko Energy Koko Energy Energy 
-                Koko Energy Koko Energy Koko Energy</p>
-              <button class="btn post-btn">Watch Video &nbsp;</button>
+              <p>Video and photo coverage for IGAD, an NGO giving relief food in drought and famine region, Marsabit.</p>
+              <button onclick="window.location.href='https://www.youtube.com/watch?v=rHXAD7dUduY';"class="btn post-btn"> Watch Video &nbsp;</button>
             </div>
           </div>
           <hr>
           <div class="post-content" data-aos="zoom-in" data-aos-delay="300">
             <div class="post-image">
               <div>
-                <img src="./assets/Blog-post/saf.jpg" class="img" alt="blog-3">
+                <img src="./assets/Blog-post/equity.jpg" class="img" alt="blog-3">
               </div>
               <div class="post-info flex-row">
                 <span>
-                  <i class="fas fa-user text-gray">&nbsp;M-pesa</i>
+                  <i class="fas fa-user text-gray">&nbsp;Equity</i>
                 </span>
                 <span>
-                  <i class="fas fa-calendar-alt text-gray">&nbsp; Jan 2020</i>
+                  <i class="fas fa-calendar-alt text-gray">&nbsp; Oct 2019</i>
                 </span>
-                <span>Nakuru</span>
+                <span>Nairobi</span>
                 <!-- <span>
                   <i class="fas fa-map-pin text-gray">&nbsp;Marsabbit</i>
                   </span> -->
@@ -224,12 +231,9 @@
             </div>
             <div class="post-title">
               <a href="#">Product Promotion</a>
-              <p>Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy Koko 
-                EnergyKoko Energy Koko Energy Koko Energy Koko Energy Koko 
-                Energy Koko Energy Koko Energy Koko Energy Koko Energy 
-                Koko Energy Koko Energy Koko Energy</p>
+              <p>Video coverage for Equity rebranding after 35 years.
+                Video coverage for Equity rebranding after 35 years. 
+                Video coverage for Equity rebranding after 35 years.</p>
                 <!-- target="_blank" opens in new tab-->
               <button class="btn post-btn">Watch Video &nbsp;</button>
             </div>
@@ -257,7 +261,7 @@
             </ul>
           </div>
           <div class="popular-post">
-            <h2> Proud Shots</h2>
+            <h2> Quick clips</h2>
             <div class="post-content" data-aos="flip-up" data-aos-delay="300">
               <div class="post-image">
                 <div>
@@ -265,7 +269,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -280,7 +284,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -295,7 +299,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -310,7 +314,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -325,7 +329,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -340,7 +344,7 @@
                 </div>
                 <div class="post-info flex-row">
                   <span>
-                    <i class="fas fa-user text-gray">&nbsp;Youtube Video</i>
+                    <i class="fas fa-video text-gray">&nbsp;watch full</i>
                   </span>
                 </div>
               </div>
@@ -357,11 +361,17 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer id="futa" class="footer">
       <div class="container">
         <div class="about-us" data-aos="fade-right" data-aos-delay="200">
           <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo labore minus id blanditiis sequi qui libero saepe excepturi aut?</p>
+          <p>Abstract Frames is a media company that...</p>
+        </div>
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>Contact Us</h2>
+          <p>info@abstractframes.com</p>
+          <p>0721-375-536</p>
+          <p>0721-000-000</p>
         </div>
         <div class="instagram" data-aos="fade-up" data-aos-delay="300">
           <h2>Instagram</h2>
@@ -389,7 +399,7 @@
       </div>
       <div class="rights flex-row">
         <h4 class="test-gray">
-          Copyright  Abstract Frames || 2020
+          &copy; Abstract Frames || 2020
         </h4>
       </div>
 
